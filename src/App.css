@@ -1,0 +1,52 @@
+.app {
+    background-image: url('../fondo1.jpg');
+   background-size: cover;
+   background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__tittle {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.app__card {
+    background-color: #ffffff72;
+    padding: 1.5em 2em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 6px 6px 8px 8px rgba(0, 0, 0, 0.366);
+}
+
+.app__btn {
+    display: block;
+    margin: auto;
+    margin-top: 1.3em;
+    padding: 0.4em 1em;
+    font-size: 0.9rem;
+    border-radius: 0.8em;
+    transition: font-size 100ms ease;
+    filter: brightness(0.90);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.466);
+    transition: transform 0.50s;
+}
+
+.app__btn:active {
+    transform: scale(0.7);
+}
+
+.app__phrase {
+    font-weight: 500;
+}
+
+.app__btn:hover {
+    font-size: 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.466) ;
+}
