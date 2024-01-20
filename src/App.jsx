@@ -14,7 +14,7 @@ function App() {
   const [bgApp, setBgApp] = useState(getRandomFromArr(bgArr))
 
   const objStyle = {
-    backgroundImage: `url('../fondo${bgApp}.jpg')`
+    backgroundImage: `url('../fondo${bgApp}.png')`
   }
 
   return (

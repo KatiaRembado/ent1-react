@@ -1,7 +1,7 @@
 .app {
-    background-image: url('../fondo1.jpg');
-   background-size: cover;
-   background-position: center;
+    background-image: url('../fondo1.png');
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,9 +11,12 @@
 .app__tittle {
     position: absolute;
     text-align: center;
-    top: 15%;
+    max-height: 600px;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
+    text-decoration: overline;
+    font-weight: bolder;
 }
 
 .app__card {
@@ -31,6 +34,7 @@
     margin-top: 1.3em;
     padding: 0.4em 1em;
     font-size: 0.9rem;
+    font-weight: bold;
     border-radius: 0.8em;
     transition: font-size 100ms ease;
     filter: brightness(0.90);
@@ -43,7 +47,7 @@
 }
 
 .app__phrase {
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .app__btn:hover {
